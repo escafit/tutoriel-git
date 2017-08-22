@@ -1,4 +1,4 @@
-# TUTORIEL GIT : UTILISATION DEPUIS L'INTERFACE EN LIGNE DE COMMANDE
+# TUTORIEL GIT : UTILISATION EN LIGNE DE COMMANDE
 
 ## LIEN UTILE
 [Tutoriel Openclassrooms](https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git "Lien vers le tuto")
