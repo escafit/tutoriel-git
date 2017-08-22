@@ -4,23 +4,39 @@
 [Tutoriel Openclassrooms](https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git "Lien vers le tuto")
 
 ## PREMIERS PAS
-* 1. Créer un nouveau dépôt :
+* Créer un nouveau dépôt :
 ```
 git init
 ```
-* 2. Ajouter le fichier lisez moi "README" :
+* Ajouter le fichier lisez moi "README" :
 ```
 git add README.md
 ```
-* 3. Soumettre le fichier 
+* Soumettre le fichier 
 ```
 git commit -m "Mon commentaire"
 ```
-* 4. Remonter et ajouter à l'origine
+* Remonter et ajouter à l'origine
 ```
 git remote add origin https//github.com/utilisateur/
 ```
-* 5. Ajouter au dépôt
+* Ajouter au dépôt
 ```
 git push -u origin master
+```
+
+## SOUMETTRE UN FICHIER
+
+* 1. Ajouter un fichier prêt à être envoyé :
+```
+git add nomfichier1 nomfichier2
+```
+* 2. Effectuer le commit
+```
+git commit
+```
+
+### SOUMETTRE PLUSIEURS FICHIERS
+```
+git commit -a
 ```
