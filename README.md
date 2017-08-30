@@ -40,3 +40,28 @@ git commit
 ```
 git commit -a
 ```
+## AFFICHER LES LOGS
+```
+git log
+```
+### AFFICHER PLUS DE DETAILS DES LOGS
+```
+git log -p
+```
+## CORRECTION DES ERREURS
+* Corriger le dernier message de commit
+```
+git commit --amend
+```
+* 1. Annuler le dernier commit
+```
+git reset HEAD
+```
+* 2. Annuler l'avant-dernier commit
+```
+git reset HEAD^
+```
+* 3. Annuler l'avant-avant-dernier commit
+```
+git reset HEAD^^
+```
